@@ -1,0 +1,33 @@
+.section {
+  padding: 50px 20px;
+  width: 100%;
+}
+footer.section {
+  padding: 20px;
+  background-color: rgb(10, 10, 10);
+  color: grey;
+}
+.btnLink {
+  text-decoration: none;
+}
+.btnLink:hover {
+  text-decoration: none;
+  color: initial;
+}
+.Btn {
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+.Btn:hover {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .section {
+    padding: 100px 50px;
+  }
+  footer.section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

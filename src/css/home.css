@@ -1,0 +1,171 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header img {
+  width: 60px;
+}
+.hero {
+  position: relative;
+}
+.newsletterForm {
+  width: 100%;
+  background-color: white;
+  border-radius: 50px;
+  overflow: hidden;
+  display: inline-flex;
+  border: 2px solid lightgray;
+}
+.newsletterForm input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+}
+.newsletterForm input:focus {
+  outline: none;
+}
+.newsletterForm button {
+  background: url(../images/desktop/circleBlue.svg);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 30px;
+  border: none;
+  border-bottom-left-radius: 20px;
+}
+.newsletterForm button img {
+  width: 70%;
+  transition: 0.2s ease;
+}
+.newsletterForm button:hover img {
+  width: 100%;
+}
+.heroMockup {
+  width: 100%;
+}
+.layer3 {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.layer4 {
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 25vh;
+}
+.layer1 {
+  width: 40%;
+  position: absolute;
+  right: 10vw;
+  bottom: 0;
+}
+.circleBlue {
+  width: 2%;
+  position: absolute;
+  right: 4vw;
+  top: 12vh;
+}
+.circleBlue2 {
+  width: 4%;
+  position: absolute;
+  right: 8vw;
+  top: 20vh;
+}
+.circleWhite {
+  width: 45%;
+  position: absolute;
+  top: -18vh;
+  right: 15vw;
+}
+.circleWhite1 {
+  width: 10%;
+  position: absolute;
+  top: 18vh;
+  left: 15vw;
+}
+.circleWhite2 {
+  width: 2%;
+  position: absolute;
+  top: 35vh;
+  left: 25vw;
+}
+.circleWhite3 {
+  width: 10%;
+  position: absolute;
+  top: 390px;
+  left: 23vw;
+}
+.phone1 {
+  width: 90%;
+}
+.layer5 {
+  width: 95%;
+  position: absolute;
+  right: 0;
+  top: 240px;
+}
+.layer2 {
+  width: 25%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.circleWhite4 {
+  width: 30%;
+  position: absolute;
+  right: 0px;
+  top: -50px;
+}
+.phone2 {
+  width: 90%;
+  /* margin-right: 50px; */
+}
+.phone2Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone3 {
+  width: 80%;
+}
+.phone3Container {
+  background: url(../images/desktop/circleBlue.svg);
+  background-size: 76%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .phone1 {
+    width: 50%;
+    margin-left: 200px;
+  }
+  .section1Text {
+    padding-left: 0 !important;
+    padding-right: 150px !important;
+  }
+  .layer5 {
+    width: 50%;
+    right: 0;
+    top: 100px;
+  }
+  .circleWhite4 {
+    width: 18%;
+    right: 0px;
+    top: -50px;
+  }
+  .phone2 {
+    width: 60%;
+  }
+  .phone3 {
+    width: 60%;
+  }
+}

@@ -1,0 +1,11 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159.586" height="291.978" viewBox="0 0 159.586 291.978">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.492" gradientTransform="matrix(-1.83, 0, 0, 1, 1.415, 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0b56cb"/>
+      <stop offset="1" stop-color="#062b66"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+    <path id="Path_2" data-name="Path 2" d="M2,2.63V293.348q6.705.623,13.6.63A145.989,145.989,0,0,0,15.6,2Q8.713,2,2,2.63Z" transform="translate(-2 -2)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
